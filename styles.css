@@ -1,0 +1,294 @@
+/* Style the background */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the heading */
+h1 {
+    color: darkblue;
+    font-size: 36px;
+}
+
+/* Style the paragraph */
+p {
+    color: darkgreen;
+    font-size: 18px;
+}
+
+/* Style the button */
+button {
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Change button color when hovered */
+button:hover {
+    background-color: darkblue;
+}
+
+/* Style the link */
+a {
+    color: red;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Change link color when hovered */
+a:hover {
+    color: darkred;}
+ body {text-align; /*center */}
+ img {
+     width: 100px; /* Adjust as needed */
+     border-radius: 10px; /* Adds rounded corners */}
+a {
+     display: block;
+     margin-bottom: 10px;
+    }
+ img {
+     margin-top: 10px;
+    }
+ button {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    } 
+ button:hover {
+     background-color: #0056b3;
+    }
+button { 
+    font-weight: bold;font size:18px;
+ }
+img { 
+    margin-bottom: 10px;
+}
+a{ 
+    color:#FF5733;
+font-weight: bold;
+text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkred;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: deepskyblue;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero, .products, .contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.featured, .product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 500px;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .product {
+        width: 100%;
+    }
+}
+/* General Styling */
+body {
+    background: linear-gradient(to right, #89CFF0, #ffffff);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background: darkblue;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Container for Centering */
+.container {
+    margin: 50px auto;
+    width: 50%;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Image Styling */
+img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+/* Link Styling */
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    color: darkred;
+}
+
+/* Button Styling */
+button {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: deepskyblue;
+}
+
+/* Footer Styling */
+footer {
+    background: darkblue;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
